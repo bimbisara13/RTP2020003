@@ -1,0 +1,355 @@
+{
+    "year": 2002,
+    "department": "CSE",
+    "questions": [{
+            "question_number": 1,
+            "question": "The rank of the matrix [1 1 0 0] is:",
+            "options": ["4", "2", "1", "0"],
+            "correct_answer": "1",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 2,
+            "question": "The trapezoidal rule for integration give exact result when the integrand is a polynomial of degree:",
+            "options": ["0 but not 1", "1 but not 0", "0 or 1", "2"],
+            "correct_answer": "0 or 1",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 3,
+            "question": "The solution to the recurrence equation T(2^k) = 3 T(2^k-1) + 1, T (1) = 1, is:",
+            "options": ["2^k", "(3^k+1 - 1)/2", "3^log 2k", "2^log 3k"],
+            "correct_answer": "(3^k+1 - 1)/2",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 4,
+            "question": "The minimum number of colours required to colour the vertices of a cycle with η nodes in such a way that no two adjacent nodes have the same colour is",
+            "options": ["2", "3", "4", "n-2[n/2]+2"],
+            "correct_answer": "n-2[n/2]+2",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 5,
+            "question": "In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is",
+            "options": ["log2n", "n/2", "log2n-1", "n"],
+            "correct_answer": "n",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 6,
+            "question": "Which of the following is true?",
+            "options": ["The set of all rational negative numbers forms a group under multiplication.", "The set of all non-singular matrices forms a group under multiplication.", "The set of all matrices forms a group under multiplication.", "Both (2) and (3) are true."],
+            "correct_answer": "The set of all non-singular matrices forms a group under multiplication.",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 7,
+            "question": "The language accepted by a Pushdown Automation in which the stack is limited to 10 items is best described as",
+            "options": ["Context Free", "Regular", "Deterministic Context Free", "Recursive"],
+            "correct_answer": "Regular",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 8,
+            "question": "'If X, then Y unless Z' is represented by which of the following formulae in propositional logic? ('¬' is negation '^' is conjunction, and '→' is implication)",
+            "options": ["(X ^ ¬ Z) → Y", "(X ^ Y) → ¬ Z", "(X → (Y ^ ¬ Z)", "(X → Y(^ ¬ Z)"],
+            "correct_answer": "(X ^ ¬ Z) → Y",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 9,
+            "question": "A device employing INTR line for device interrupt puts the CALL instruction on the data bus while A) INTA is active B) HOLD is active  C) READY is active  D) None of these",
+            "options": ["A", "B", "C", "D"],
+            "correct_answer": "A",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 10,
+            "question": "In 8085, which of the following modifies the program counter ?",
+            "options": ["Only PCHL instruction", "Only ADD instructions", "Only JMP and CALL instructions", "All instructions"],
+            "correct_answer": "All instructions",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 11,
+            "question": "In serial data transmission, every byte of data is padded with a ‘0’ in the beginning and one or two ‘I’ s at the end of byte because",
+            "options": ["Receiver is to be synchronized for byte reception", "Receiver recovers lost ‘0’ and ‘1’s from these padded bits", "Padded bits are useful in parity computation", "None of these"],
+            "correct_answer": "Receiver is to be synchronized for byte reception",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 12,
+            "question": "Minimum sum of product expression for f(w, x, y, z) shown in Karnaugh-map below is yzwx 00 01 11 10 00 0 1 1 0 01 x 0 0 1 11 x 0 0 1 10 0 1 1 x",
+            "options": ["xz + y'z", "xz' + zx'", "x'y + zx'", "None of these"],
+            "correct_answer": "xz' + zx'",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 13,
+            "question": "Which of the following is not a form of memory?",
+            "options": ["instruction cache", "instruction register", "instruction opcode", "translation lookaside buffer"],
+            "correct_answer": "instruction opcode",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 14,
+            "question": "The decimal value 0.25",
+            "options": ["is equivalent to the binary value 0.1", "is equivalent to the binary value 0.01", "is equivalent to the binary value 0.00111....", "cannot be represented precisely in binary"],
+            "correct_answer": "is equivalent to the binary value 0.01",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 15,
+            "question": "The 2' s complement representation of the decimal value - 15 is",
+            "options": ["1111", "11111", "111111", "10001"],
+            "correct_answer": "10001",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 16,
+            "question": "Sign extension is a step in",
+            "options": ["floating point multiplication", "signed 16 bit integer addition", "arithmetic left shift", "converting a signed integer from one size to another"],
+            "correct_answer": "converting a signed integer from one size to another",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 17,
+            "question": "In the C language",
+            "options": ["At most one activation record exists between the current activation record and the activation record for the main", "The number of activation records between the current activation record and the activation record for the main depends on the actual function calling sequence.", "The visibility of global variables depends on the actual function calling sequence.", "Recursion requires the activation record for the recursive function to be saved on a different stack before the recursive function can be called."],
+            "correct_answer": "The number of activation records between the current activation record and the activation record for the main depends on the actual function calling sequence.",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 18,
+            "question": "The results returned by functions under value-result and reference parameter passing conventions",
+            "options": ["Do not differ", "Differ in the presence of loops", "Differ in all cases", "May differ in the presence of exceptions"],
+            "correct_answer": "May differ in the presence of exceptions",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 19,
+            "question": "Relation R with an associated set of functional dependencies, F is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set relations is.",
+            "options": ["Zero", "More than zero but less than that of an equivalent 3NF decomposition", "Proportional to the size of F+", "Indeterminate"],
+            "correct_answer": "Indeterminate",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 20,
+            "question": "With regard to the expressive power of the formal relational query languages, which of the following statements is true?",
+            "options": ["Relational algebra is more powerful than relational calculus", "Relational algebra has the same power as relational calculus", "Relational algebra has the same power as safe relational calculus", "None of the above"],
+            "correct_answer": "Relational algebra has the same power as safe relational calculus",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 21,
+            "question": "In 2' s complement addition, overflow",
+            "options": ["is flagged whenever there is carry from sign bit addition", "cannot occur when a positive value is added to a negative value", "is flagged when the carries from sign bit and previous bit match", "none of the above"],
+            "correct_answer": "cannot occur when a positive value is added to a negative value",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 22,
+            "question": "Which of the following scheduling algorithms is non-preemptive?",
+            "options": ["Round Robin", "First-In First-Out", "Multilevel Queue Scheduling", "Multilevel Queue Scheduling with Feedback"],
+            "correct_answer": "First-In First-Out",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 23,
+            "question": "The optimal page replacement algorithm will select the page that",
+            "options": ["Has not been used for the longest time in the past.", "Will not be used for the longest time in the future.", "Has been used least number of times.", "Has been used most number of times."],
+            "correct_answer": "Will not be used for the longest time in the future.",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 24,
+            "question": "In the absolute addressing mode",
+            "options": ["the operand is inside the instruction", "the address of the operand is inside the instruction", "the register containing address of the operand is specified inside the instruction", "the location of the operand is implicit"],
+            "correct_answer": "the address of the operand is inside the instruction",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 25,
+            "question": "Maximum number of edges in a n - node undirected graph without self loops is",
+            "options": ["n^2", "n(n-1)/2", "n-1", "(n + 1)(n)/2"],
+            "correct_answer": "n(n-1)/2",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 26,
+            "question": "Consider the following logic circuit whose inputs and function and output is f. Given that f1(dx, y, z) = ∑(0, 1, 3, 5),  f2(dx, y, z) = ∑(6, 7) and    f(dx, y, z) = ∑(1, 4, 5),  f3 is :",
+            "options": ["∑(1, 4, 5)", "∑(6, 7)", "∑(0, 1, 3, 5)", "None of these"],
+            "correct_answer": "∑(1, 4, 5)",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 27,
+            "question": "Consider the following multiplexor where 10, 11, 12, 13 are four data input lines selected by two address line combinations A1A0 = 00, 01, 10, 11 respectively and f is the output of the multiplexor. EN is the enable input. The function f(x, y, z) implemented by the above circuit is :",
+            "options": ["xyz'", "xy + z", "x + z", "None of these"],
+            "correct_answer": "xyz'",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 28,
+            "question": "Let f(A, B) = A' + B. Simplified expression for function f(f(x + y, y)z) is :",
+            "options": ["x' + z", "xyz", "xy' + z", "None of these"],
+            "correct_answer": "xy' + z",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 29,
+            "question": "What are the states of the Auxiliary Carry (AC) and Carry Flag (dCY) after executing the following 8085 program? MVI L, 5DH  MVI L, 6BH   MOV A, H ADD L",
+            "options": ["AC = 0 and CY = 0", "AC = 1 and CY = 1", "AC = 1 and CY = 0", "AC = 0 and CY = 0"],
+            "correct_answer": "AC = 1 and CY = 0",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 30,
+            "question": "The Finite state machine described by the following state diagram with A as starting state, where an arc label is x / y and x stands for 1-bit input and y stands for 2- bit output",
+            "options": ["Outputs the sum of the present and the previous bits of the input.", "Outputs 01 whenever the input sequence contains 11.", "Outputs 00 whenever the input sequence contains 10.", "None of these"],
+            "correct_answer": "Outputs the sum of the present and the previous bits of the input.",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 31,
+            "question": "The performance of a pipelined processor suffers if :",
+            "options": ["the pipeline stages have different delays", "consecutive instructions are dependent on each other", "the pipeline stages share hardware resources", "all of the above"],
+            "correct_answer": "all of the above",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 32,
+            "question": "Horizontal microprogramming :",
+            "options": ["does not require use of signal decoders", "results in larger sized microinstructions than vertical microprogramming", "uses one bit for each control signal", "all of the above."],
+            "correct_answer": "all of the above.",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 33,
+            "question": "Consider the following declaration of a two dimensional array in C: char a[100][100]; Assuming that the main memory is byte-addressable and that the array is stored starting from memory address 0, the address of a [40][50] is :",
+            "options": ["4040", "4050", "5040", "5050"],
+            "correct_answer": "4050",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 34,
+            "question": "The number of leaf nodes in a rooted tree of n nodes, with each node having 0 or 3 children is:",
+            "options": ["n/2", "(n-1)/3", "(n - 1)/2", "(2n + 1)/3"],
+            "correct_answer": "(2n + 1)/3",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 35,
+            "question": "Consider the following algorithm for searching for a given number x in an unsorted array A[1.....n] having n distinct values: 1. Choose an i uniformaly at random from 1..... n; 2. If A[i] = x then Stop else Goto 1; Assuming that x is present in A, what is the expected number of comparisons made by the algorithm before it terminates ?",
+            "options": ["n", "n-1", "2n", "n/2"],
+            "correct_answer": "n",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 36,
+            "question": "The running time of the following algorithm Procedure A(n)  If n < = 2 return (1) else return (A(Image not present√nImage not present)); is best described by :",
+            "options": ["O(n)", "O(log n)", "O(log Log n)", "O(l1)"],
+            "correct_answer": "O(log Log n)",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 37,
+            "question": "A weight-balanced tree is a binary tree in which for each node, the number of nodes in the left subtree is at least half and at most twice the number of nodes in the right subtree. The maximum possible height (number of nodes on the path from the root to the furthest leaf) of such a tree on n nodes is best described by which of the following?",
+            "options": ["log2n", "log4/3n", "log3n", "log3/2n"],
+            "correct_answer": "log3/2n",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 38,
+            "question": "The smallest finite automation which accepts the language {x | length of x is divisible by 3} has :",
+            "options": ["2 states", "3 states", "4 states", "5 states"],
+            "correct_answer": "3 states",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 39,
+            "question": "Which of the following is true?",
+            "options": ["The complement of a recursive language is recursive.", "The complement of a recursively enumerable language is recursively enumerable.", "The complement of a recursive language is either recursive or recursively enumerable.", "The complement of a context-free language is context-free."],
+            "correct_answer": "The complement of a recursive language is recursive.",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 40,
+            "question": "The Newton-Raphson iteration Xn + 1 = (Xn/2) + 3/(2Xn) can be used to solve the equation",
+            "options": ["X^2 = 3", "X^3 = 3", "X^2 = 2", "X^3 = 2"],
+            "correct_answer": "X^2 = 3",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 41,
+            "question": "Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is :",
+            "options": ["1/16", "1/8", "7/8", "15/16"],
+            "correct_answer": "7/8",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 42,
+            "question": "The binary relation S = ф (empty set) on set A = {1, 2, 3} is :",
+            "options": ["Neither reflexive nor symmetric", "Neither reflexive nor symmetric", "Transitive and reflexive", "Transitive and symmetric"],
+            "correct_answer": "Transitive and symmetric",
+            "correct_option_number": 4
+        },
+        {
+            "question_number": 43,
+            "question": "The C language is:",
+            "options": ["A context free language", "A context sensitive language", "A regular language", "Parasble fully only by a Turing machine"],
+            "correct_answer": "A context sensitive language",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 44,
+            "question": "To evaluate an expression without any embedded function calls:",
+            "options": ["One stack is enough", "Two stacks are needed", "As many stacks as the height of the expression tree are needed", "A Turing machine is needed in the general case"],
+            "correct_answer": "One stack is enough",
+            "correct_option_number": 1
+        },
+        {
+            "question_number": 45,
+            "question": "Dynamic linking can cause security concerns because:",
+            "options": ["Security is dynamic", "The path for searching dynamic libraries is not known till runtime", "Linking is insecure", "Crytographic procedures are not available for dynamic linking"],
+            "correct_answer": "The path for searching dynamic libraries is not known till runtime",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 46,
+            "question": "Which combination of the following features will suffice to characterize an OS as a multi-programmed OS? (a) More than one program may be loaded into main memory at the same time for execution. (b) If a program waits for certain events such as I/O, another program is immediately scheduled for execution. (c) If the execution of program terminates, another program is immediately scheduled for execution.",
+            "options": ["a", "a and b", "a and c", "a, b and c"],
+            "correct_answer": "a and b",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 47,
+            "question": "In the index allocation scheme of blocks to a file, the maximum possible size of the file depends on :",
+            "options": ["the size of the blocks, and the size of the ad­dress of the blocks.", "the number of blocks used for the index, and the size of the blocks.", "the size of the blocks, the number of blocks used for the index, and the size of the address of the blocks.", "None of these"],
+            "correct_answer": "the number of blocks used for the index, and the size of the blocks.",
+            "correct_option_number": 2
+        },
+        {
+            "question_number": 48,
+            "question": "A B+ -tree index is to be built on the Name attribute of the relation STUDENT. Assume that all student names are of length 8 bytes, disk block are size 512 bytes, and index pointers are of size 4 bytes. Given this scenario, what would be the best choice of the degree (i.e. the number of pointers per node) of the B+ -tree?",
+            "options": ["16", "42", "43", "44"],
+            "correct_answer": "43",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 49,
+            "question": "Relation R is decomposed using a set of functional dependencies, F and relation S is decomposed using another set of functional dependencies G. One decomposition is definitely BCNF, the other is definitely 3NF, but it is not known which is which. To make a guaranteed identification, which one of the following tests should be used on the decompositions? (Assume that the closures of F and G are available).",
+            "options": ["Dependency-preservation", "Lossless-join", "BCNF definition", "3NF definition"],
+            "correct_answer": "BCNF definition",
+            "correct_option_number": 3
+        },
+        {
+            "question_number": 50,
+            "question": "From the following instance of a relation scheme R (A, B, C), we can conclude that: A B C 1 1 1 1 1 0 2 3 2 2 3 2",
+            "options": ["A functionally determines B and B function­ally determines C", "A functionally determines B and B does not functionally determine C", "B does not functionally determine C", "A does not functionally determine B and B does not functionally determine C"],
+            "correct_answer": "B does not functionally determine C",
+            "correct_option_number": 3
+        }
+    ]
+}
