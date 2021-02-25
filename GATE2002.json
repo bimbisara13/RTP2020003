@@ -345,7 +345,7 @@
             "correct_option_number": 3
         },
         {
-            "question_number": 50,
+            "question_number": 51,
             "question": "From the following instance of a relation scheme R (A, B, C), we can conclude that: A B C 1 1 1 1 1 0 2 3 2 2 3 2",
             "options": ["A functionally determines B and B function­ally determines C", "A functionally determines B and B does not functionally determine C", "B does not functionally determine C", "A does not functionally determine B and B does not functionally determine C"],
             "correct_answer": "B does not functionally determine C",
